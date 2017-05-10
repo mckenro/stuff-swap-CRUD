@@ -1,0 +1,33 @@
+{"listings": [{
+    "id": "0",
+    "title": "New Skateboard",
+    "description": "New sk8 board. Cool guy model. Never used, includes trucks and wheels!",
+    "price": 220,
+    "city": "Seattle",
+    "state": "WA",
+    "zip": 98101,
+    "condition": "new",
+    "image": "https://www.rollerderby.com/1796/Ribbon-Skateboard.jpg"
+  }, {
+      "id": "1",
+      "title": "Gently Used Sofa",
+      "description": "Got this new last year but it doesn't go with my new apartment. Non-smoker, no pets. Make me an offer.",
+      "price": 120,
+      "city": "Marysville",
+      "state": "WA",
+      "zip": 98252,
+      "condition": "used",
+      "image": "http://www.oc-rf.com/used-couch/images/white-leather-sofa-4.JPG"
+    }, {
+        "id": "2",
+        "title": "Trek Mountain Bike",
+        "description": "2012 Trek 4400 MTB. Full suspension bike with shimano components. Only used for about 6 months. Time to find a new home so it isn't sitting collecting dust.",
+        "price": 22,
+        "city": "Seattle",
+        "state": "WA",
+        "zip": 98101,
+        "condition": "new",
+        "image": "http://www.bicycling.com/sites/default/files/fck_content/trek-fuel-front-profile-yellow.jpg"
+      }
+]
+}

@@ -1,0 +1,8 @@
+<h3>Find cool stuff and list your stuff at Stuff Swap!</h3>
+
+<div *ngFor="let listing of listings | async" class="panel panel-default">
+  <div class="panel-body">
+    <h4>{{listing.title}}</h4>
+    <p>{{listing.description}}</p>
+  </div>
+</div>
