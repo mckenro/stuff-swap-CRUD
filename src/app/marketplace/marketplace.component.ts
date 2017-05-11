@@ -20,4 +20,8 @@ export class MarketplaceComponent implements OnInit {
     this.listings = this.listingService.getListings();
   }
 
+  goToDetailPage(clickedListing) {
+    this.router.navigate(['listings', clickedListing.$key]);
+  }
+
 }

@@ -1,3 +1,6 @@
-<p>
-  listing works!
-</p>
+<h2>{{(listingtoDisplay | async)?.title}}  ${{(listingtoDisplay | async)?.price}}</h2>
+<div class="listing-image">
+  <img src="{{(listingtoDisplay | async)?.image}}">
+</div>
+<p>{{(listingtoDisplay | async)?.description}}</p>
+<p><strong>Location: </strong>{{(listingtoDisplay | async)?.city}}, {{(listingtoDisplay | async)?.state}} {{(listingtoDisplay | async)?.zip}}</p>
