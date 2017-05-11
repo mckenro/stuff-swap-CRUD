@@ -1,4 +1,5 @@
-
+<button class="btn btn-success" (click)="editButton=!editButton">Edit Listing</button>
+<div *ngIf="editButton">
   <h4>Edit {{selectedListing.title}}</h4>
   <div>
     <div class="form-group">
@@ -55,3 +56,4 @@
     <hr>
     <button class="btn btn-danger" (click)="beginDeletingListing(selectedListing)">Delete Listing</button>
   </div>
+</div>
