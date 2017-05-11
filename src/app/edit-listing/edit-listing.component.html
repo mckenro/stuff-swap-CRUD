@@ -1,0 +1,57 @@
+
+  <h4>Edit {{selectedListing.title}}</h4>
+  <div>
+    <div class="form-group">
+      <label>Listing Title:</label>
+      <br>
+      <input class="form-control" [(ngModel)]="selectedListing.title">
+    </div>
+
+    <div class="form-group">
+      <label>Price:</label>
+      <br>
+      <input class="form-control" [(ngModel)]="selectedListing.price">
+    </div>
+
+    <div class="form-group">
+      <label>Image URL:</label>
+      <br>
+      <input class="form-control" [(ngModel)]="selectedListing.image">
+    </div>
+
+    <div class="form-group">
+      <label>City:</label>
+      <br>
+      <input class="form-control" [(ngModel)]="selectedListing.city">
+    </div>
+
+    <div class="form-group">
+      <label>State:</label>
+      <br>
+      <input class="form-control" [(ngModel)]="selectedListing.state">
+    </div>
+
+    <div class="form-group">
+      <label>Zip:</label>
+      <br>
+      <input type="number" class="form-control" [(ngModel)]="selectedListing.zip">
+    </div>
+
+    <div class="form-group">
+      <label>Condition:</label>
+      <br>
+      <input class="form-control" [(ngModel)]="selectedListing.condition">
+    </div>
+
+    <div class="form-group">
+      <label>Description:</label>
+      <br>
+      <textarea class="form-control" [(ngModel)]="selectedListing.description"></textarea>
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-success" (click)="beginUpdatingListing(selectedListing)">Update</button>
+    </div>
+    <hr>
+    <button class="btn btn-danger" (click)="beginDeletingListing(selectedListing)">Delete Listing</button>
+  </div>

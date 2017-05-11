@@ -7,6 +7,11 @@
         <img src="{{listing.image}}">
         <h3 (click)="goToDetailPage(listing)">{{listing.title}}</h3>
         <p>{{listing.description}}</p>
+        <div *ngIf="currentRoute === '/admin'">
+          <p><strong>Location: </strong>{{listing.city}}, {{listing.state}} {{listing.zip}}</p>
+          <hr>
+          <app-edit-listing [selectedListing]="listing"></app-edit-listing>
+        </div>
       </div>
 
   </div>
